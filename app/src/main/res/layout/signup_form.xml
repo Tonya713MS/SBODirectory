@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/signup_name_input"
+        style="@style/LoginUI.EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/small_vertical_spacing"
+        android:drawableLeft="@drawable/icon_username"
+        android:hint="@string/name_input_hint"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/signup_email_input"
+        style="@style/LoginUI.EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/small_vertical_spacing"
+        android:drawableLeft="@drawable/icon_email"
+        android:hint="@string/email_input_hint"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/signup_username_input"
+        style="@style/LoginUI.EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/icon_username"
+        android:hint="@string/username_input_hint"></EditText>
+
+    <EditText
+        android:id="@+id/signup_password_input"
+        style="@style/LoginUI.EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/small_vertical_spacing"
+        android:drawableLeft="@drawable/icon_password"
+        android:fontFamily="sans-serif"
+        android:hint="@string/password_input_hint"
+        android:inputType="textPassword"
+        android:selectAllOnFocus="true" />
+
+    <EditText
+        android:id="@+id/signup_confirm_password_input"
+        style="@style/LoginUI.EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/small_vertical_spacing"
+        android:drawableLeft="@drawable/icon_password"
+        android:fontFamily="sans-serif"
+        android:hint="@string/confirm_password_input_hint"
+        android:inputType="textPassword"
+        android:selectAllOnFocus="true" />
+
+
+    <Button
+        android:id="@+id/create_account"
+        style="@style/LoginUI.Button"
+        android:layout_marginTop="@dimen/small_vertical_spacing"
+        android:text="@string/create_account_button_label" />
+
+    <Button
+        android:id="@+id/login_help"
+        style="@style/LoginUI.HelpButton"
+        android:layout_marginBottom="@dimen/small_vertical_spacing"
+        android:layout_marginTop="@dimen/small_vertical_spacing"
+        android:text="@string/exited_button_label" />
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menuListAll"
+        android:title="@string/menu_list_all_company" />
+    <item android:id="@+id/menuNearbyLocation"
+        android:title="@string/menu_nearby_location" />
+    <item android:id="@+id/menuLogout"
+        android:title="@string/menu_logout" />
+</menu>

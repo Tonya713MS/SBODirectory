@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--<item android:id="@+id/action_menu"-->
+        <!--android:icon="@drawable/icon_menu"-->
+        <!--android:title="@string/action_menu"-->
+        <!--app:showAsAction="ifRoom"-->
+        <!--app:divider="?attr/actionBarDivider"-->
+        <!--app:dividerPadding="12dip"/>-->
+    <!-- Search, should appear as action button -->
+    <item android:id="@+id/action_search"
+        android:icon="@drawable/icon_search"
+        android:title="@string/action_search"
+        app:showAsAction="ifRoom|collapseActionView"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:divider="?attr/actionBarDivider"
+        app:dividerPadding="12dip"
+        />
+    <!-- Settings, should always be in the overflow -->
+    <item android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:icon="@drawable/icon_context_menu"
+        app:showAsAction="always"
+        app:divider="?attr/actionBarDivider"
+        app:dividerPadding="12dip">
+        <menu xmlns:android="http://schemas.android.com/apk/res/android">
+            <item android:id="@+id/menuListAll"
+                android:title="@string/menu_list_all_company" />
+            <item android:id="@+id/menuNearbyLocation"
+                android:title="@string/menu_nearby_location" />
+            <item android:id="@+id/menuLogout"
+                android:title="@string/menu_logout" />
+        </menu>
+        </item>
+</menu>

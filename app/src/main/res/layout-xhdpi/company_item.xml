@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/thumbnail"
+        android:layout_width="90dip"
+        android:layout_height="90dip"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/item_margin"
+        android:src="@drawable/thumb_default"
+        app:border_width="0dp" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="30dip"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="abc"
+        android:textColor="@color/company_name"
+        android:textSize="@dimen/company_name"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_height="30dip"
+        android:layout_below="@+id/name"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:ellipsize="none"
+        android:gravity="top|left"
+        android:singleLine="true"
+        android:text="abc"
+        android:textColor="@color/company_address"
+        android:textSize="@dimen/company_address" />
+
+    <ImageView
+        android:id="@+id/iconWebsite"
+        android:layout_width="30dip"
+        android:layout_height="30dip"
+        android:paddingBottom="5dip"
+        android:paddingTop="5dip"
+        android:layout_below="@+id/viewDivider"
+        android:layout_marginRight="3dip"
+        android:layout_marginTop="2dip"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:background="@drawable/icon_website" />
+
+    <TextView
+        android:id="@+id/website"
+        android:layout_width="wrap_content"
+        android:layout_height="30dip"
+        android:paddingBottom="5dip"
+        android:paddingTop="5dip"
+        android:layout_below="@+id/viewDivider"
+        android:layout_toRightOf="@+id/iconWebsite"
+        android:autoLink="web"
+        android:ellipsize="end"
+        android:gravity="center|left"
+        android:singleLine="true"
+        android:layout_marginRight="3dip"
+        android:text="http://www/phearlesstechnology.com"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/company_other_info" />
+
+    <ImageView
+        android:id="@+id/iconPhone"
+        android:layout_width="30dip"
+        android:layout_height="30dip"
+        android:paddingBottom="5dip"
+        android:paddingTop="5dip"
+        android:layout_below="@+id/website"
+        android:layout_marginRight="3dip"
+        android:layout_marginTop="2dip"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:background="@drawable/icon_phone" />
+
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="wrap_content"
+        android:layout_height="30dip"
+        android:paddingBottom="5dip"
+        android:paddingTop="5dip"
+        android:layout_below="@+id/website"
+        android:layout_toRightOf="@+id/iconPhone"
+        android:autoLink="phone"
+        android:ellipsize="none"
+        android:gravity="center|left"
+        android:singleLine="true"
+        android:text="(404)309-0909"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/company_other_info" />
+    <ImageView
+        android:id="@+id/iconCategory"
+        android:layout_width="30dip"
+        android:layout_height="30dip"
+        android:paddingBottom="5dip"
+        android:paddingTop="5dip"
+        android:layout_below="@+id/iconPhone"
+        android:layout_marginRight="3dip"
+        android:layout_marginTop="2dip"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:background="@drawable/icon_menu_category" />
+
+    <TextView
+        android:id="@+id/category"
+        android:layout_width="wrap_content"
+        android:layout_height="30dip"
+        android:paddingBottom="5dip"
+        android:paddingTop="5dip"
+        android:layout_below="@+id/iconPhone"
+        android:layout_toRightOf="@+id/iconCategory"
+        android:autoLink="phone"
+        android:ellipsize="none"
+        android:gravity="center|left"
+        android:singleLine="true"
+        android:text="abc"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/company_other_info" />
+    <ImageView
+        android:id="@+id/iconDirection"
+        android:layout_width="30dip"
+        android:layout_height="30dip"
+        android:paddingBottom="5dip"
+        android:paddingTop="5dip"
+        android:layout_below="@+id/iconCategory"
+        android:layout_marginLeft="-1dip"
+        android:layout_marginTop="1dip"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:background="@drawable/icon_direction" />
+
+    <com.sbodirectory.view.UnderlineTextView
+        android:id="@+id/btnDirection"
+        android:layout_width="wrap_content"
+        android:layout_height="30dip"
+        android:paddingBottom="5dip"
+        android:paddingTop="5dip"
+        android:layout_below="@+id/iconCategory"
+        android:layout_marginLeft="3dip"
+        android:layout_toRightOf="@+id/iconDirection"
+        android:background="@null"
+        android:text="@string/get_direction"
+        android:textColor="@color/company_direction"
+        android:textSize="@dimen/company_other_info" />
+    <View
+        android:id="@+id/viewDivider"
+        android:layout_width="match_parent"
+        android:layout_height="2dip"
+        android:layout_below="@+id/address"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:background="#ffe7e7e8" />
+</RelativeLayout>

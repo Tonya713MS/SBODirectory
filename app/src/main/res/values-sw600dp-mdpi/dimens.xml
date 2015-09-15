@@ -1,0 +1,11 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="large_vertical_spacing">36dp</dimen>
+
+    <dimen name="company_name">16sp</dimen>
+    <dimen name="company_address">13sp</dimen>
+    <dimen name="company_direction">@dimen/company_address</dimen>
+    <dimen name="company_other_info">@dimen/company_address</dimen>
+
+    <dimen name="menu_width">320dip</dimen>
+</resources>

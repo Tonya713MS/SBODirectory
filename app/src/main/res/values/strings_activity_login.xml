@@ -1,0 +1,24 @@
+<resources>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+
+    <string name="unexited_button_label"><u>Don\'t have an account? Create new</u></string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="username_input_hint">Username</string>
+    <string name="password_input_hint">Password</string>
+    <string name="login_button_label">Log in</string>
+    <string name="signup_button_label">Sign up</string>
+    <string name="confirm_password_input_hint">Re-enter password</string>
+    <string name="email_input_hint">Email Address</string>
+    <string name="name_input_hint">Full Name</string>
+    <string name="create_account_button_label">Create account</string>
+    <string name="exited_button_label"><u>Already have an account? Log in</u></string>
+    <string name="log_out_button_label">Log out</string>
+</resources>

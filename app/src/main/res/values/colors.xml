@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="blue">#ff000cff</color>
+    <color name="tint_color">#fffa5f05</color>
+    <color name="color_primary_dark">#ffd44e00</color>
+    <color name="login_button">#fa5f05</color>
+    <color name="login_button_push">#30CCCCCC</color>
+    <color name="login_button_focus">#35CCCCCC</color>
+    <color name="login_text_hint">#30CCCCCC</color>
+    <color name="login_display_text">@android:color/white</color>
+    <color name="login_help_button_label">@android:color/white</color>
+    <color name="login_help_button_label_push">#AAAAAA</color>
+    <color name="login_help_button_label_focus">#CCCCCC</color>
+
+    <!-- Company Item color -->
+    <color name="company_name">#ff18171c</color>
+    <color name="company_address">#ffa7a7a7</color>
+    <color name="company_direction">#fffa5f05</color>
+</resources>

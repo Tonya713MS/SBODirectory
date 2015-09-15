@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/navMenu"
+    android:layout_width="@dimen/menu_width"
+    android:layout_height="match_parent"
+    android:layout_gravity="left|start"
+    android:background="@color/menu_background"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/menu_logo" />
+
+    <EditText
+        android:id="@+id/searchBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo"
+        android:layout_marginBottom="@dimen/small_vertical_spacing"
+        android:layout_marginTop="@dimen/small_vertical_spacing"
+        android:background="@drawable/search_box_bg"
+        android:hint="@string/hint_search_box"
+        android:padding="13dip"
+        android:singleLine="true"
+        android:imeOptions="actionSearch"
+        android:textAppearance="@android:style/TextAppearance.Small"
+        android:textColorHint="@color/hint_text_search_box" />
+
+    <ExpandableListView
+        android:id="@+id/listMenuView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/searchBox"
+        android:background="@android:color/transparent"
+        android:cacheColorHint="@android:color/transparent"
+        android:childDivider="@color/menu_list_divider"
+        android:divider="@color/menu_list_divider"
+        android:dividerHeight="1dip"
+        android:groupIndicator="@null" />
+
+</RelativeLayout>

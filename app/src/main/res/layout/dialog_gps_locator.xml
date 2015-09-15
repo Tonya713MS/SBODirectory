@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="10dip">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/msg_dialog_enable_gps"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:id="@+id/btnEnableLocator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dip"
+        android:layout_marginTop="12dip"
+        android:background="@color/tint_color"
+        android:paddingBottom="1dip"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="1dip"
+        android:text="@string/button_enable_locator"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/btnListCompany"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:text="@string/click_for_sbo_directory"
+        android:textColor="@android:color/black" />
+</LinearLayout>

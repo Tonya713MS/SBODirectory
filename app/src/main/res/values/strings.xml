@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">SBODirectory</string>
+    <string name="get_direction">Get Directions</string>
+    <string name="loading">Loading...</string>
+    <string name="msg_error_get_my_location">Opps. We can not get your location</string>
+    <string name="msg_dialog_enable_gps">Enable GPS/Locator to find SBO Businesses near you!</string>
+    <string name="button_enable_locator">Enable Locator</string>
+    <string name="click_for_sbo_directory">Click for SBODirectory</string>
+    <string name="hello_world">Welcome!</string>
+    <string name="msg_empty_list">Your location cannot be detected or there or no local SBO companies found please click here for the full SBODirectory list</string>
+    <string name="button_ok">OK</string>
+    <string name="action_menu">Menu</string>
+    <string name="action_search">Search</string>
+    <string name="action_settings">Setting</string>
+    <!--Menus -->
+    <string name="menu_login_register">Login/Register</string>
+    <string name="menu_list_all_company">List Companies</string>
+    <string name="menu_nearby_location">Nearby Location</string>
+    <string name="menu_logout">Logout</string>
+    <!--Right menu -->
+    <string name="hint_search_box">Search Miles/Kilometers</string>
+    <string name="featured_companies">Featured Companies</string>
+    <string name="my_website">Our website</string>
+    <string name="miles">Miles</string>
+    <string name="kilometers">Kilometers</string>
+    <string name="categories">Categories</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+    <!--config do not change -->
+    <string name="map_api_key" translate="false">AIzaSyD4jlmXSo4rA5jo3Y06ENdqZw_xDO_kSXQ</string>
+    <string name="direction_api_key" translate="false">AIzaSyDZ20hqqIXf9n-AB21lmVgEEivrQJdxEDQ</string>
+    <string name="admob_banner_unit_id" translate="false">ca-app-pub-2400342002587874/7519286945</string>
+</resources>

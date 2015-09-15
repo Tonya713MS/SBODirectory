@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="search_box_background">#ff242329</color>
+    <color name="hint_text_search_box">#ff4f4d57</color>
+    <color name="text_search_box">#ffffff</color>
+    <color name="menu_text_normal">#ff5d5a6a</color>
+    <color name="menu_text_selected">#ffffff</color>
+    <color name="menu_background">#ff18171c</color>
+    <color name="menu_list_divider">#ff242229</color>
+</resources>
